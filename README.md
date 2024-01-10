@@ -1,6 +1,6 @@
-# quizits
+# Quizits
 
-A new Flutter project.
+A simple quiz app'.
 
 ## Getting Started
 
