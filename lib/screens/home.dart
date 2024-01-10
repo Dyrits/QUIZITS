@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'package:quizits/screens/questions.dart';
+
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  final void Function(Widget widget) switchScreen;
+
+  const HomeScreen(this.switchScreen, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +19,7 @@ class HomeScreen extends StatelessWidget {
         const SizedBox(height: 20),
         ElevatedButton.icon(
           onPressed: () {
-            Navigator.pushNamed(context, "/start");
+            switchScreen(const QuestionsScreen());
           },
           icon: const Icon(Icons.play_arrow),
           label: const Text("Start the quiz"),
