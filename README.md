@@ -1,16 +1,23 @@
 # Quizits
 
-A simple quiz app'.
+A simple quiz application built with Flutter.
+
+## About The Project
+
+A Flutter quiz app, with targets for Android, iOS, web, Linux, macOS and Windows.
+
+## Built With
+
+- Flutter / Dart
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Install [Flutter](https://docs.flutter.dev/get-started/install), fetch the dependencies with `flutter pub get`, then run the app with `flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
+## License
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+No license file is present in this repository.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
